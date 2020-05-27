@@ -1,4 +1,4 @@
-# Stockfish API 0.0.1
+# Stockfish HTTP API 0.0.1
 
 It is my first attempt on using Python Flask
 
@@ -18,8 +18,10 @@ pip install stockfish
 pip install gunicorn
 pip install flask
 ```
-1. Run `./start.sh` to start gunicorn and the application. Change the port inside `start.sh` as per your preference.
+
+3. Run `./start.sh` to start gunicorn and the application. Change the port inside `start.sh` as per your preference.
 1. To access, make a POST request. An example is:
+
 ```
 wget http://localhost/move --post-data="fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1&level=difficult" -O - -q 
 
