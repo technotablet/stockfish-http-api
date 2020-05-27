@@ -4,7 +4,7 @@ It is my first attempt on using Python Flask
 
 The API is a wrapper around Stockfish Chess Engine so that it is possible to use it thru an HTTP endpoint.
 
-It uses Python Stockfish Library, Flask and Gunicorn to initialise a web server with multiple worker threads.
+It uses [Python Stockfish Library](https://github.com/zhelyabuzhsky/stockfish) (Thanks [Ilya Zhelyabuzhsky](https://github.com/zhelyabuzhsky)), Flask and Gunicorn to initialise a web server with multiple worker threads.
 
 
 # How To Use
